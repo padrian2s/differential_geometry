@@ -1,0 +1,78 @@
+{
+  "page": 480,
+  "chapter": "Chapter VIII: L\u00b2 Estimates on Pseudoconvex Manifolds",
+  "examples": [
+    {
+      "title": "Hormander L\u00b2 Estimate",
+      "content": "On a pseudoconvex domain with weight function phi, the dbar equation has L\u00b2 solutions with controlled norm.",
+      "formula": "\\|u\\|^2_\\varphi \\leq \\int |f|^2 e^{-\\varphi} \\, dV"
+    },
+    {
+      "title": "Bochner-Kodaira Identity",
+      "content": "The fundamental identity relating the dbar-Laplacian to curvature and torsion terms.",
+      "formula": "\\|\\bar{\\partial}u\\|^2 + \\|\\bar{\\partial}^*u\\|^2 = \\|\\nabla u\\|^2 + \\langle [i\\Theta, \\Lambda]u, u \\rangle"
+    }
+  ],
+  "simulator": {
+    "type": "paraboloid",
+    "title": "Pseudoconvex Domain",
+    "description": "The domain {|z|^2 < 1} is strictly pseudoconvex with defining function r = |z|^2 - 1.",
+    "wireframe": false,
+    "color": 255
+  },
+  "applications": [
+    {
+      "title": "Several Complex Variables",
+      "field": "Mathematics",
+      "icon": "📊",
+      "description": "L\u00b2 methods solve the dbar equation and prove extension theorems.",
+      "examples": ["Ohsawa-Takegoshi extension", "Suita conjecture", "Berndtsson convexity"]
+    },
+    {
+      "title": "Algebraic Geometry",
+      "field": "Mathematics",
+      "icon": "📐",
+      "description": "L\u00b2 estimates provide effective versions of vanishing and extension theorems.",
+      "examples": ["Effective Matsusaka", "Fujita conjecture", "Multiplier ideal sheaves"]
+    }
+  ],
+  "learning": {
+    "prerequisites": [
+      "Functional analysis",
+      "Pseudoconvexity",
+      "Hodge theory"
+    ],
+    "concepts": [
+      {
+        "name": "Pseudoconvex Domain",
+        "definition": "A domain Omega where -log d(z, boundary) is plurisubharmonic near the boundary."
+      },
+      {
+        "name": "Multiplier Ideal Sheaf",
+        "definition": "The sheaf I(phi) of germs f with |f|^2 e^{-phi} locally integrable."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Show that the unit ball in C^n is strictly pseudoconvex.",
+        "difficulty": "medium",
+        "hint": "Compute the Levi form of the defining function r = |z|^2 - 1."
+      },
+      {
+        "question": "Prove that L\u00b2 holomorphic functions on a bounded pseudoconvex domain form a Hilbert space.",
+        "difficulty": "hard",
+        "hint": "Show completeness using the mean value property and L\u00b2 estimates."
+      }
+    ]
+  },
+  "interactive": {
+    "diagrams": [
+      {
+        "type": "manifold",
+        "title": "Levi Form Visualization",
+        "description": "The Levi form measures convexity of the boundary in complex tangential directions.",
+        "instructions": "Positive Levi form indicates the domain curves away from the boundary."
+      }
+    ]
+  }
+}

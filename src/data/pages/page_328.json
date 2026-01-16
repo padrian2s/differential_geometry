@@ -1,0 +1,78 @@
+{
+  "page": 328,
+  "chapter": "Chapter V: Hermitian Vector Bundles",
+  "examples": [
+    {
+      "title": "Hermitian Metric on a Bundle",
+      "content": "A Hermitian metric h on a complex vector bundle E assigns to each fiber E_x a Hermitian inner product varying smoothly with x.",
+      "formula": "h: E \\times_X E \\to \\mathbb{C}, \\quad h(\\lambda s, t) = \\lambda h(s,t), \\quad h(s,t) = \\overline{h(t,s)}"
+    },
+    {
+      "title": "Chern Connection",
+      "content": "The Chern connection is the unique connection on (E, h) that is compatible with both the Hermitian metric and the holomorphic structure.",
+      "formula": "\\nabla^{0,1} = \\bar{\\partial}_E, \\quad d h(s,t) = h(\\nabla s, t) + h(s, \\nabla t)"
+    }
+  ],
+  "simulator": {
+    "type": "mobius",
+    "title": "Non-trivial Line Bundle",
+    "description": "The Mobius strip represents a non-orientable real line bundle. Complex line bundles have analogous twisting measured by Chern class.",
+    "wireframe": false,
+    "color": 16776960
+  },
+  "applications": [
+    {
+      "title": "Gauge Theory",
+      "field": "Physics",
+      "icon": "⚡",
+      "description": "Yang-Mills connections on Hermitian bundles describe fundamental forces in particle physics.",
+      "examples": ["Electromagnetic field", "Weak and strong forces", "Instantons"]
+    },
+    {
+      "title": "Index Theory",
+      "field": "Mathematics",
+      "icon": "🔢",
+      "description": "The Atiyah-Singer index theorem relates analytic and topological invariants of bundles.",
+      "examples": ["Dirac operators", "Riemann-Roch", "Heat kernel methods"]
+    }
+  ],
+  "learning": {
+    "prerequisites": [
+      "Vector bundles",
+      "Connections and curvature",
+      "Complex manifolds"
+    ],
+    "concepts": [
+      {
+        "name": "Chern Classes",
+        "definition": "Characteristic classes c_k(E) in H^{2k}(X, Z) measuring the twisting of a complex vector bundle E."
+      },
+      {
+        "name": "Curvature Form",
+        "definition": "The (1,1)-form Theta = nabla^2 measuring the failure of parallel transport to be path-independent."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Show that the curvature of the Chern connection is a (1,1)-form.",
+        "difficulty": "medium",
+        "hint": "Use the decomposition of the connection into (1,0) and (0,1) parts."
+      },
+      {
+        "question": "Prove that c_1(L) = [i Theta / 2 pi] for a holomorphic line bundle L with Chern connection.",
+        "difficulty": "hard",
+        "hint": "Use local trivializations and compute the transition of the curvature form."
+      }
+    ]
+  },
+  "interactive": {
+    "diagrams": [
+      {
+        "type": "vector-field",
+        "title": "Parallel Transport",
+        "description": "Visualize how vectors are transported along curves using the connection.",
+        "instructions": "The holonomy around a loop measures the integrated curvature."
+      }
+    ]
+  }
+}

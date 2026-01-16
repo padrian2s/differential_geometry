@@ -1,0 +1,78 @@
+{
+  "page": 148,
+  "chapter": "Chapter III: Positive Currents and Potential Theory",
+  "examples": [
+    {
+      "title": "Currents as Generalized Forms",
+      "content": "A current of degree p on a manifold M is a continuous linear functional on the space of compactly supported smooth (n-p)-forms. Currents generalize both differential forms and submanifolds.",
+      "formula": "T(\\omega) = \\int_M T \\wedge \\omega"
+    },
+    {
+      "title": "Positive Currents",
+      "content": "A (p,p)-current T is positive if T(i^{p^2} \\alpha_1 \\wedge \\bar{\\alpha}_1 \\wedge ... \\wedge \\alpha_p \\wedge \\bar{\\alpha}_p) \\geq 0 for all (1,0)-forms \\alpha_j.",
+      "formula": "T \\geq 0 \\iff T(\\varphi) \\geq 0 \\text{ for all strongly positive forms } \\varphi"
+    }
+  ],
+  "simulator": {
+    "type": "complex-plane",
+    "title": "Current of Integration",
+    "description": "The current [Z] of integration over an analytic subvariety Z acts on forms by integration over Z.",
+    "wireframe": false,
+    "color": 16711935
+  },
+  "applications": [
+    {
+      "title": "Complex Analysis",
+      "field": "Mathematics",
+      "icon": "📈",
+      "description": "Positive closed currents appear as limits of sequences of analytic cycles and encode intersection theory.",
+      "examples": ["Lelong numbers", "Analytic cycles", "Intersection products"]
+    },
+    {
+      "title": "Pluripotential Theory",
+      "field": "Mathematics",
+      "icon": "🔬",
+      "description": "The Monge-Ampere operator and plurisubharmonic functions connect to positive currents.",
+      "examples": ["Bedford-Taylor theory", "Complex Monge-Ampere", "Capacity theory"]
+    }
+  ],
+  "learning": {
+    "prerequisites": [
+      "Distribution theory",
+      "Differential forms",
+      "Several complex variables"
+    ],
+    "concepts": [
+      {
+        "name": "Current",
+        "definition": "A continuous linear functional on compactly supported smooth forms, generalizing distributions."
+      },
+      {
+        "name": "Lelong Number",
+        "definition": "The density nu(T, x) of a positive closed current T at a point x, measuring local mass concentration."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Show that the current of integration [H] over a hyperplane in CP^n is a positive closed (1,1)-current.",
+        "difficulty": "medium",
+        "hint": "Use the defining function of H and compute the associated current."
+      },
+      {
+        "question": "Prove that the Lelong number is upper semicontinuous as a function of the point.",
+        "difficulty": "hard",
+        "hint": "Use the monotonicity formula and semicontinuity of mass."
+      }
+    ]
+  },
+  "interactive": {
+    "diagrams": [
+      {
+        "type": "vector-field",
+        "title": "Support of a Current",
+        "description": "Visualize how currents can be supported on lower-dimensional subsets.",
+        "instructions": "The highlighted region shows where the current has non-zero action."
+      }
+    ]
+  }
+}
