@@ -1,0 +1,94 @@
+{
+  "page": 1,
+  "chapter": "Front Matter",
+  "examples": [
+    {
+      "title": "What is Complex Differential Geometry?",
+      "content": "Complex differential geometry combines complex analysis with differential geometry, studying complex manifolds, holomorphic functions, and their geometric properties.",
+      "formula": null
+    },
+    {
+      "title": "About This Book",
+      "content": "This text by Jean-Pierre Demailly covers fundamental concepts from differential calculus on manifolds to advanced topics like sheaf theory, Hodge theory, and L² estimates.",
+      "formula": null
+    }
+  ],
+  "simulator": {
+    "type": "sphere",
+    "title": "The Riemann Sphere",
+    "description": "The Riemann sphere ℂ∪{∞} is a fundamental example of a compact complex manifold. It represents the extended complex plane.",
+    "wireframe": false
+  },
+  "applications": [
+    {
+      "title": "Algebraic Geometry",
+      "field": "Mathematics",
+      "icon": "📐",
+      "description": "Complex geometry provides the analytic foundation for studying algebraic varieties and their properties.",
+      "examples": ["Projective varieties", "Divisors and line bundles", "Intersection theory"]
+    },
+    {
+      "title": "String Theory",
+      "field": "Physics",
+      "icon": "🌌",
+      "description": "Calabi-Yau manifolds from complex geometry play a central role in string theory compactifications.",
+      "examples": ["Calabi-Yau threefolds", "Mirror symmetry", "Moduli spaces"]
+    }
+  ],
+  "learning": {
+    "prerequisites": [
+      "Complex Analysis (single variable)",
+      "Multivariable Calculus",
+      "Linear Algebra",
+      "Basic Topology"
+    ],
+    "concepts": [
+      {
+        "name": "Complex Manifold",
+        "definition": "A manifold with an atlas of charts to ℂⁿ where transition maps are holomorphic."
+      },
+      {
+        "name": "Holomorphic Function",
+        "definition": "A complex-differentiable function, equivalently one satisfying the Cauchy-Riemann equations."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Why is the Riemann sphere a natural compactification of the complex plane?",
+        "difficulty": "easy",
+        "hint": "Consider stereographic projection from S² to ℂ."
+      },
+      {
+        "question": "What makes complex manifolds more rigid than real manifolds?",
+        "difficulty": "medium",
+        "hint": "Think about holomorphic vs smooth transition functions."
+      }
+    ],
+    "furtherReading": [
+      {
+        "title": "Principles of Algebraic Geometry",
+        "author": "Griffiths & Harris"
+      },
+      {
+        "title": "Complex Geometry",
+        "author": "Daniel Huybrechts"
+      }
+    ]
+  },
+  "interactive": {
+    "diagrams": [
+      {
+        "type": "manifold",
+        "title": "Stereographic Projection",
+        "description": "Visualize how the sphere projects onto the complex plane.",
+        "instructions": "The sphere minus the north pole maps bijectively to ℂ."
+      },
+      {
+        "type": "vector-field",
+        "title": "Holomorphic Vector Field",
+        "description": "A vector field induced by z ↦ z² on the complex plane.",
+        "instructions": "Observe the fixed point at the origin and the flow pattern."
+      }
+    ]
+  }
+}

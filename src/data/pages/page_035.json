@@ -1,0 +1,78 @@
+{
+  "page": 35,
+  "chapter": "Chapter I: Basic Concepts of Complex Geometry",
+  "examples": [
+    {
+      "title": "Plurisubharmonic Functions",
+      "content": "A function φ: Ω → [-∞, ∞) is plurisubharmonic if it is upper semicontinuous and subharmonic on every complex line intersection.",
+      "formula": "i\\partial\\bar{\\partial}\\varphi \\geq 0"
+    },
+    {
+      "title": "Levi Form",
+      "content": "For a C² function φ, the Levi form at a point z is the Hermitian form given by the complex Hessian.",
+      "formula": "L_\\varphi(z;\\xi) = \\sum_{j,k} \\frac{\\partial^2 \\varphi}{\\partial z_j \\partial \\bar{z}_k}(z) \\xi_j \\bar{\\xi}_k"
+    }
+  ],
+  "simulator": {
+    "type": "paraboloid",
+    "title": "Strictly Plurisubharmonic Function",
+    "description": "The function φ(z) = |z|² is strictly plurisubharmonic—its graph forms a paraboloid.",
+    "wireframe": false,
+    "color": 3381759
+  },
+  "applications": [
+    {
+      "title": "Several Complex Variables",
+      "field": "Mathematics",
+      "icon": "📊",
+      "description": "PSH functions are fundamental in potential theory and complex analysis.",
+      "examples": ["Hartogs' extension", "Pseudoconvex domains", "Complex Monge-Ampère"]
+    },
+    {
+      "title": "Kähler Geometry",
+      "field": "Mathematics",
+      "icon": "🔷",
+      "description": "Kähler potentials are plurisubharmonic functions defining Kähler metrics.",
+      "examples": ["Calabi-Yau metrics", "Ricci flow", "Mirror symmetry"]
+    }
+  ],
+  "learning": {
+    "prerequisites": [
+      "Subharmonic functions",
+      "Complex Hessian",
+      "Several complex variables"
+    ],
+    "concepts": [
+      {
+        "name": "Plurisubharmonic (PSH)",
+        "definition": "Upper semicontinuous function whose restriction to any complex line is subharmonic."
+      },
+      {
+        "name": "Strictly PSH",
+        "definition": "PSH function with positive definite Levi form."
+      }
+    ],
+    "exercises": [
+      {
+        "question": "Show that log|f| is PSH for any holomorphic function f.",
+        "difficulty": "medium",
+        "hint": "Use the chain rule and the fact that log|w| is subharmonic."
+      },
+      {
+        "question": "Prove that the maximum of two PSH functions is PSH.",
+        "difficulty": "medium",
+        "hint": "Check the subharmonicity condition on each complex line."
+      }
+    ]
+  },
+  "interactive": {
+    "diagrams": [
+      {
+        "type": "curve",
+        "title": "Level Sets of |z|²",
+        "description": "Circles are the level sets of the plurisubharmonic function |z|².",
+        "instructions": "Each level set is a circle centered at the origin."
+      }
+    ]
+  }
+}

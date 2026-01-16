@@ -1,0 +1,58 @@
+{
+  "chapters": [
+    {
+      "id": "front-matter",
+      "title": "Front Matter",
+      "startPage": 1,
+      "endPage": 6
+    },
+    {
+      "id": "ch1",
+      "title": "Chapter I: Basic Concepts of Complex Geometry",
+      "startPage": 7,
+      "endPage": 72
+    },
+    {
+      "id": "ch2",
+      "title": "Chapter II: Coherent Sheaves and Analytic Spaces",
+      "startPage": 73,
+      "endPage": 147
+    },
+    {
+      "id": "ch3",
+      "title": "Chapter III: Positive Currents and Potential Theory",
+      "startPage": 148,
+      "endPage": 252
+    },
+    {
+      "id": "ch4",
+      "title": "Chapter IV: Sheaf Cohomology and Spectral Sequences",
+      "startPage": 253,
+      "endPage": 327
+    },
+    {
+      "id": "ch5",
+      "title": "Chapter V: Hermitian Vector Bundles",
+      "startPage": 328,
+      "endPage": 377
+    },
+    {
+      "id": "ch6",
+      "title": "Chapter VI: Hodge Theory",
+      "startPage": 378,
+      "endPage": 432
+    },
+    {
+      "id": "ch7",
+      "title": "Chapter VII: Positive Vector Bundles and Vanishing Theorems",
+      "startPage": 433,
+      "endPage": 479
+    },
+    {
+      "id": "ch8",
+      "title": "Chapter VIII: L² Estimates on Pseudoconvex Manifolds",
+      "startPage": 480,
+      "endPage": 518
+    }
+  ]
+}

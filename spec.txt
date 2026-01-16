@@ -1,0 +1,97 @@
+❯ # Interactive Differencial Geometry Project
+
+  ## Project Overview
+  Transform a textbook into an enhanced, interactive learning platform that preserves academic rigor while
+  improving accessibility through hands-on learning experiences.
+
+  ## Memory Management Strategy
+  **Process the book in manageable chunks** to respect memory context limitations:
+  - Work on individual chapters sequentially
+  - Process 5-10 pages per batch
+  - Maintain consistency tracking between chunks
+  - Create modular components that integrate seamlessly
+
+  ## Source Material Requirements
+  - Locate and access the category theory book in the specified directory
+  - Preserve all original theoretical content and mathematical notation
+  - Maintain the book's structure, chapter organization, and page numbering
+
+  ## Enhancement Specifications
+
+  ### For Each Page, Implement All Five Components:
+
+  #### 1. **Practical Examples**
+  - Create 2-3 concrete examples that directly illustrate each theoretical concept
+  - Use familiar objects and relationships (sets, functions, programming concepts)
+  - Provide step-by-step breakdowns showing how abstract principles apply
+  - Include visual representations where applicable
+
+  #### 2. **Interactive Simulators**
+  - Develop functional simulators allowing users to manipulate category theory elements
+  - Include parameter controls for morphisms, objects, and compositions
+  - Provide real-time feedback showing results of user interactions
+  - Enable experimentation with different inputs and configurations
+
+  #### 3. **Real-World Applications**
+  - Demonstrate practical applications in computer science, mathematics, and other fields
+  - Show connections to programming languages, database design, or logical systems
+  - Include industry case studies where category theory principles are applied
+  - Provide context for why these concepts matter beyond academic study
+
+  #### 4. **Progressive Learning Scenarios**
+  - Create learning paths that connect current concepts to previous material
+  - Design exercises that gradually increase in complexity
+  - Show explicit relationships between foundational and advanced topics
+  - Include prerequisite reviews and concept dependencies
+
+  #### 5. **Interactive Components**
+  - Implement clickable diagrams with hover-over explanations
+  - Create adjustable parameter controls with immediate visual feedback
+  - Design step-by-step guided tutorials with user-controlled pacing
+  - Develop dynamic visualizations that update based on user input
+
+  ## Technical Implementation Requirements
+
+  ### Display Architecture
+  - **Primary Display**: Use PDF.js to render original book pages
+  - **Enhancement Layout**: Position interactive content as:
+  - Side-by-side panels with the original page
+  - Expandable overlays that don't obscure original text
+  - Tabbed interfaces for different enhancement types
+
+  ### Navigation System
+  - Implement chapter-based organization with clear hierarchical structure
+  - Create page-level navigation with progress tracking
+  - Include search functionality across both original and enhanced content
+  - Provide bookmarking and note-taking capabilities
+
+  ### Interactive Framework
+  - Ensure all simulators function independently and collectively
+  - Implement responsive design for various screen sizes
+  - Include accessibility features for diverse learning needs
+  - Create consistent user interface patterns across all enhancements
+
+  ## Quality Standards
+
+  ### Academic Integrity
+  - Maintain mathematical precision and theoretical accuracy
+  - Preserve original terminology and notation systems
+  - Include proper citations and references for additional materials
+  - Ensure enhancements support rather than replace core concepts
+
+  ### User Experience
+  - Design for learners ranging from undergraduate to graduate level
+  - Provide multiple learning pathways (visual, interactive, theoretical)
+  - Include help documentation and usage instructions
+  - Implement intuitive interface controls and clear visual hierarchy
+
+  ### Performance Requirements
+  - Optimize loading times for interactive components
+  - Ensure smooth operation across different browsers and devices
+  - Implement efficient memory usage for complex visualizations
+  - Provide offline functionality where possible
+
+  ## Deliverable Specifications
+  Create a comprehensive interactive learning platform that transforms each page of abstract category theory into an engaging,
+  multi-modal educational experience while preserving the intellectual depth and mathematical rigor of the original academic
+  work.
